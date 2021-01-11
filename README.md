@@ -7,3 +7,12 @@ My goal is to make an application that can generate pseudo-random artpieces. In 
 - how to move between different application screens
 - how to save data from the app to local storage
 - and more!
+
+---
+
+### Resources
+
+- Core HTML and JavaScript files are based on Electron's simple sample projects, specifically the hash project
+    - https://github.com/electron/simple-samples/tree/master/hash 
+- Grid layout used for generating some of the artwork
+    - https://www.smashingmagazine.com/2018/02/generated-content-grid-layout/
