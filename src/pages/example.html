@@ -11,9 +11,6 @@
   <link rel="stylesheet" href="./styles.css">
 
   <!-- Scripts -->
-  <script>
-    delete module.exports
-  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script src="../scripts/nav.js" charset="utf-8"></script>
   <script src="../scripts/artgen.js" charset="utf-8"></script>
@@ -36,24 +33,12 @@
     </div>
 	
 	<div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-		<table class="example-table" style ="width:100%">
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-		</table>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 artwork-area">
+		
+		<div class="grid" id="main-grid">
+			<div class="canvas" style="grid-area: 1 / 1 / span 8 / span 12" ></div>
+		</div>
+
       </div>
     </div>
 
