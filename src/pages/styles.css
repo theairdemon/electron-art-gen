@@ -18,6 +18,10 @@ p {
   font-weight: normal;
 }
 
+.extra-padding {
+	padding-bottom: 15px;
+}
+
 .artwork-area {
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -25,7 +29,8 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  width: 700px;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
   grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
   grid-gap: 0px;
 }

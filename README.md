@@ -8,7 +8,9 @@ My goal is to make an application that can generate pseudo-random artpieces. In 
 - how to work within the Electron framework through reading their documentation
 - and more!
 
----
+### Examples of Generated Artworks
+
+![Example1](examples/example1.jpg) 
 
 ### Resources
 
@@ -17,4 +19,7 @@ My goal is to make an application that can generate pseudo-random artpieces. In 
 - Grid layout used for generating some of the artwork
     - https://www.smashingmagazine.com/2018/02/generated-content-grid-layout/
 	- https://www.w3schools.com/css/css_grid_item.asp 
+- Emotional effect of colors
+    - https://londonimageinstitute.com/how-to-empower-yourself-with-color-psychology/ 
+
 	
