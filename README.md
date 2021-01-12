@@ -8,11 +8,28 @@ My goal is to make an application that can generate pseudo-random artpieces. In 
 - how to work within the Electron framework through reading their documentation
 - and more!
 
-### Examples of Generated Artworks
+---
 
+## Examples
+
+### Random Colors
 ![Example1](examples/example1.jpg) 
 
-### Resources
+### Happy
+![Happy1](examples/happy1.jpg) 
+
+### Calm
+![Calm1](examples/calm1.jpg) 
+
+### Love
+![Love1](examples/love1.jpg) 
+
+### Empty
+![Empty1](examples/empty1.jpg) 
+
+---
+
+## Resources
 
 - Core HTML and JavaScript files are based on Electron's simple sample projects, specifically the hash project
     - https://github.com/electron/simple-samples/tree/master/hash 
