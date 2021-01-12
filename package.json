@@ -1,13 +1,14 @@
 {
   "name": "electron-art-gen",
-  "productName": "electron-art-gen",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "productName": "ArtGEN",
+  "version": "0.1.0",
+  "description": "Generative Abstract Art Experiment",
   "main": "./src/scripts/app.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
+	"make-mac": "electron-forge make --platform darwin",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
@@ -19,7 +20,9 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+		"icon": "./assets/artgen_icon"
+	  },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
