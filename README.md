@@ -8,13 +8,9 @@ My goal is to make an application that can generate pseudo-random artpieces. In 
 - how to work within the Electron framework through reading their documentation
 - and more!
 
----
-
 ## Current Build: v0.1.0
 
 Having issues building for non-native platforms (I'm using a Windows computer). To build for your platform, make sure electron-forge is installed, then type `npm run make` and it should auto-detect your computer system. You can also try running it as an Electron app, using `npm install & npm start`.
-
---- 
 
 ## Examples
 
@@ -32,8 +28,6 @@ Having issues building for non-native platforms (I'm using a Windows computer). 
 
 ### Empty
 ![Empty1](examples/empty1.jpg) 
-
----
 
 ## Resources
 
